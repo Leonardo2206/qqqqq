@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px 5px;
+    background-color: #EAEAEA; /* Fondo gris claro */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF; /* Fondo blanco para el contenedor */
+    max-width: 90%;
+    margin: 15px 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #E1E1E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #3C3B6E; /* Azul oscuro */
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    line-height: 1.6;
+    color: #666666; /* Gris oscuro */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills, .projects {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #FF6F61; /* Naranja brillante */
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects {
+    background: #F8F9FA; /* Fondo gris claro para destacar proyectos */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.tech-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+}
+
+.tech-circle img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
